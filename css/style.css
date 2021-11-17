@@ -1,0 +1,66 @@
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: black;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.flexbox-home_marquee {
+  z-index: 1;
+  height: auto;
+  min-width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+.flexbox-home_marquee-text {
+  font-family: var(--arial);
+  font-size: 21vh;
+  margin: 0;
+}
+
+.welcome {
+  z-index: -2;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  min-width: 100%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+}
+.welcome_text {
+  font-family: var(--wondar);
+  color: white;
+  font-size: 10vh;
+  opacity: 0;
+  text-align: center;
+  margin: 0vh 20vh 0vh 20vh;
+  transition: opacity 3s;
+}
+
+:root {
+  --arial: "arial", sans-serif;
+  --wondar: "Wondar";
+  --green: #d0ff00;
+  --red: #ff2200;
+  --blue: #0015ff;
+}
+
+@font-face {
+  font-family: "Wondar";
+  src: url("wondarquason.otf");
+}
+
+/*# sourceMappingURL=style.css.map */
