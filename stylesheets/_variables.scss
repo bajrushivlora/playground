@@ -1,6 +1,8 @@
 :root {
     --arial: 'arial', sans-serif;
     --wondar: "Wondar";
+    --universExtended: "Univers Extended";
+    --universExtendedBold: "Univers Extended Bold";
     --green: #d0ff00;
     --red: #ff2200;
     --blue: #0015ff;
@@ -9,4 +11,14 @@
 @font-face {
     font-family: "Wondar";
     src: url("wondarquason.otf");
+}
+
+@font-face {
+    font-family: "Univers Extended";
+    src: url("univers-extended.otf");
+}
+
+@font-face {
+    font-family: "Univers Extended Bold";
+    src: url("univers-extended-bold.otf");
 }
